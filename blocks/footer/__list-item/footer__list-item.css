@@ -1,0 +1,10 @@
+.footer__list-item {
+  margin: 0 0 0 18px;
+  padding: 0;
+  min-height: 18px;
+}
+
+.footer__list-item:first-child {
+  margin: 0;
+  padding: 0;
+}
