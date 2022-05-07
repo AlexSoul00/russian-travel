@@ -7,6 +7,10 @@
   font-size: 72px;
   line-height: 76px;
   color: #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .places__title:nth-child(n+2):nth-child(-n+3) {
@@ -27,6 +31,7 @@
 
   .places__title:first-of-type {
     min-height: 92px;
+    text-align: left;
   }
 }
 
