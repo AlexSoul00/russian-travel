@@ -4,6 +4,8 @@
   list-style: none;
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   color: #fff;
 }

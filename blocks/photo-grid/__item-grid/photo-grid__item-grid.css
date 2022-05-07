@@ -1,6 +1,5 @@
 .photo-grid__item-grid {
   margin: 0;
   padding: 0;
-  max-width: 284px;
-  min-height: 213px;
+  max-width: 100%;
 }

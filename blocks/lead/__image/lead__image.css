@@ -4,3 +4,27 @@
   margin: 0;
   padding: 64px 148px 8px 148px;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    max-width: 928px;
+    min-height: 580px;
+    padding: 56px 48px 8px 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    max-width: 768px;
+    min-height: 480px;
+    padding: 56px 0 8px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+    padding: 40px 2px 8px 2px;
+  }
+}

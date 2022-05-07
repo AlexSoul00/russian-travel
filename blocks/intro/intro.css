@@ -1,6 +1,30 @@
 .intro {
   margin: 0;
-  padding: 114px 442px 92px 148px;
+  padding: 92px 442px 92px 148px;
   max-width: 690px;
   min-height: 429px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 92px 286px 92px 48px;
+    max-width: 690px;
+    min-height: 429px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 88px 24px 88px 24px;
+    max-width: 720px;
+    min-height: 429px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 64px 16px 64px 16px;
+    max-width: 288px;
+    min-height: 754px;
+  }
 }
