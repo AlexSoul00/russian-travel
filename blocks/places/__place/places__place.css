@@ -13,10 +13,10 @@
 @media screen and (max-width: 1279px) {
   .places__place {
     max-width: 928px;
-    min-height: 564x;
+    min-height: 564px;
     grid-row-gap: 32px;
     grid-template-columns: 440px 456px;
-    grid-template-rows: minmax(112px, auto) minmax(440px, auto)
+    grid-template-rows: minmax(112px, auto) minmax(440px, auto);
   }
 }
 
