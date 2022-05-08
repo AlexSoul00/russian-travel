@@ -1,8 +1,9 @@
 .places__title {
   margin: 0;
+  padding: 0;
   max-width: 460px;
-  min-height: 152px;
-  font-family: 'Inter', sans-serif;
+  min-height: 76px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -13,25 +14,12 @@
   justify-content: end;
 }
 
-.places__title:nth-child(n+2):nth-child(-n+3) {
-  min-height: 76px;
-}
-
-.places__title:last-of-type {
-  min-height: 76px;
-}
-
 @media screen and (max-width: 1023px) {
   .places__title {
     font-size: 42px;
     line-height: 46px;
     max-width: 340px;
     min-height: 46px;
-  }
-
-  .places__title:first-of-type {
-    min-height: 92px;
-    text-align: left;
   }
 }
 
@@ -41,5 +29,6 @@
     line-height: 35px;
     max-width: 288px;
     min-height: 35px;
+    padding: 0 16px 0 16px;
   }
 }

@@ -4,7 +4,7 @@
   max-width: 456px;
   min-height: 22px;
   text-decoration: underline;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -15,4 +15,10 @@
 .places__link:hover {
   transition: 2s;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .places__link {
+    padding: 0 16px 0 16px;
+  }
 }
