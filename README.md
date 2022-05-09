@@ -8,3 +8,5 @@ HTML
 CSS
 Figma
 проект создан с использованием HTML и CSS. Файловая структура по правилам Nested БЭМ.
+проект доступен по ссылке:
+https://alexsoul00.github.io/russian-travel/

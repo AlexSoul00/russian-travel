@@ -14,7 +14,6 @@
   .places__place {
     max-width: 928px;
     min-height: 564px;
-    grid-row-gap: 32px;
     grid-template-columns: 440px 456px;
     grid-template-rows: minmax(112px, auto) minmax(440px, auto);
   }
@@ -24,7 +23,7 @@
   .places__place {
     max-width: 720px;
     min-height: 434px;
-    grid-row-gap: 28px;
+    grid-column-gap: 28px;
     grid-template-columns: 340px 352px;
     grid-template-rows: minmax(46px, auto) minmax(340px, auto);
   }
