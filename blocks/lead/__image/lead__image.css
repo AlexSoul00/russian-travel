@@ -25,6 +25,6 @@
   .lead__image {
     max-width: 320px;
     min-height: 200px;
-    padding: 40px 2px 8px 2px;
+    padding: 40px 0 8px 0;
   }
 }
